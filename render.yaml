@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vip-tools-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SESSION_SECRET
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+    healthCheckPath: /
+    disk:
+      name: data
+      mountPath: /app/data
+      sizeGB: 1
