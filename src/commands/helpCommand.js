@@ -20,10 +20,6 @@ Aqui está como usar o bot:
 5. Sobre o Bot:
    Use /sobre para saber mais sobre o bot
 
-6. Comandos de Administrador:
-   - /adicionar_ferramenta <nome_ferramenta> <link_acesso>
-   - /atualizar_ferramenta <nome_ferramenta> <novo_link_acesso>
-
 Precisa de mais ajuda? Sinta-se à vontade para perguntar no grupo!
 `;
   
